@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tp-ria"
+version = "0.1.0"
+description = ""
+authors = ["malo.girard <malo.girard@jellysmack.com>"]
+readme = "README.md"
+packages = [{include = "tp_ria"}]
+
+[tool.poetry.dependencies]
+python = "3.9.*"
+fastapi = "^0.89.1"
+PyMySQL = "^1.0.2"
+PyPika = "^0.48.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
